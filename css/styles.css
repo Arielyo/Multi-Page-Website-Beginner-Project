@@ -1,0 +1,87 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.site-nav {
+    display: flex;
+    gap: 1.5rem
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60dvh;
+    padding: 2rem;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+.column {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.column {
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.column {
+    flex: 1;
+}
+
+.list-strip {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.list-strip li::before {
+    content: "- ";
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.column-rv {
+    flex: 1;
+    padding: 1rem;
+}
+
+form label {
+    display: block;
+    /* Puts the label on its own line above the input */
+    margin-top: 0.5rem;
+    /* Adds space between the label and the input box */
+}
+
+.site-footer {
+    text-align: center;
+    padding-top: 10rem;
+}
